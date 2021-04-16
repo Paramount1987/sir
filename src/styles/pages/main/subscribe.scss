@@ -1,0 +1,101 @@
+.subscribe {
+  padding: 65px 0 35px 0;
+}
+
+.subscribe-form {
+  font-family: $font-family-OpenSans;
+  font-size: 20px;
+  color: $blue;
+
+  &__control {
+    margin-bottom: 25px;
+  }
+
+  &__input {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #c4c4c4;
+    padding: 0 20px;
+    background-color: $white;
+    color: $blue;
+    outline: none;
+
+    &::placeholder {
+      color: $blue;
+    }
+  }
+
+  &__btn {
+    width: 100%;
+    height: 60px;
+    padding: 0 10px;
+    background-color: $blue;
+    color: $white;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__txt {
+    font-family: $font-family-OpenSans;
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .subscribe-form {
+    font-size: 24px;
+
+    &__control {
+      display: flex;
+    }
+
+    &__input {
+      width: auto;
+      flex-grow: 1;
+    }
+    &__btn {
+      width: 240px;
+      flex-shrink: 0;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .subscribe-form {
+    &__btn {
+      width: 210px;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .subscribe {
+    padding-bottom: 85px;
+  }
+  .subscribe-form {
+    &__btn {
+      width: 290px;
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .subscribe-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__control {
+      width: 730px;
+      margin-bottom: 0;
+    }
+    &__btn {
+      width: 255px;
+    }
+
+    &__txt {
+      width: 350px;
+    }
+  }
+}

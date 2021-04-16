@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
+	<link rel="stylesheet" href="css/style.css?1618588022008">
+</head>
+<body>
+
+
+<header class="header header--fixed">
+    <div class="header-inner">
+        <div class="container">
+            <div class="header-row">
+                <div class="header-left">
+                    <a href="#" class="header-link">
+                        <span class="icon icon-comment"></span>
+                        Напишите нам
+                    </a>
+                    <ul class="header-list">
+                        <li><a href="#" class="header-list__link">WhatsApp</a></li>
+                        <li><a href="#" class="header-list__link">Viber</a></li>
+                        <li><a href="#" class="header-list__link">Telegram</a></li>
+                    </ul>
+                </div>
+                <div class="header-right">
+                    <div class="header-lang">
+                        <div class="header-lang__curr">Русский</div>
+                        <div class="header-lang-switch">
+                            <a href="#" class="header-lang__link">English</a>
+                            <a href="#" class="header-lang__link">Русский</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="nav">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <a href="#" class="header-logo"> <img src="images/header-logo.svg" alt="logo"> </a>
+                <div class="nav-menu">
+                    <a href="#" class="nav-menu__link">Недвижимость</a>
+                    <a href="#" class="nav-menu__link">Стиль жизни</a>
+                    <a href="#" class="nav-menu__link">Блог</a>
+                    <a href="#" class="nav-menu__link">О нас</a>
+                </div>
+                <button class="nav-menu__btn js-nav-btn">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="nav-mobile js-nav-mobile">
+        <div class="header-lang">
+            <div class="header-lang__curr">Русский</div>
+            <div class="header-lang-switch">
+                <a href="#" class="header-lang__link">English</a>
+                <a href="#" class="header-lang__link">Русский</a>
+            </div>
+        </div>
+        <div class="nav-mobile-menu">
+            <a href="#" class="nav-mobile-menu__link">Недвижимость</a>
+            <a href="#" class="nav-mobile-menu__link">Стиль жизни</a>
+            <a href="#" class="nav-mobile-menu__link">Блог</a>
+            <a href="#" class="nav-mobile-menu__link">О нас</a>
+        </div>
+        <a href="#" class="header-link mb-3 mb-sm-4">
+            <span class="icon icon-comment"></span>
+            Напишите нам
+        </a>
+        <ul class="header-list ml-0">
+            <li class="ml-0"><a href="#" class="header-list__link">WhatsApp</a></li>
+            <li><a href="#" class="header-list__link">Viber</a></li>
+            <li><a href="#" class="header-list__link">Telegram</a></li>
+        </ul>
+    </nav>
+    <div class="nav-mobile-backdrop js-nav-backdrop"></div>
+</header>
+
+<div class="wrapper">
+    
+<section class="section-intro">
+    <!-- Swiper -->
+<div class="swiper-container swiper-intro js-intro-slider">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="swiper-slide__inner" style="background-image: url('images/content/intro.jpg')"></div>
+        </div>
+        <div class="swiper-slide">
+            <div class="swiper-slide__inner" style="background-image: url('images/content/intro.jpg')"></div>
+        </div>
+        <div class="swiper-slide">
+            <div class="swiper-slide__inner" style="background-image: url('images/content/intro.jpg')"></div>
+        </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+
+
+    <div class="intro-content">
+        <div class="container">
+            <div class="intro-content__inner">
+                <h2 class="intro-title">Вилла с 6 спальнями в Лимассоле</h2>
+                <h4 class="intro-title intro-title--sm">Cyprus, limassol, Agios Tychonas</h4>
+                <p class="intro-price"><span>€</span> 5.500.000</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-intro-thumbs">
+    <div class="container">
+    <div class="swiper-container swiper-intro-thumbs js-intro-slider-thumbs">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image:url('images/content/intro.jpg')"></div>
+        <div class="swiper-slide" style="background-image:url('images/content/intro.jpg')"></div>
+        <div class="swiper-slide" style="background-image:url('images/content/intro.jpg')"></div>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+
+<section>
+    <div class="container container-form-search">
+    <div class="row">
+        <div class="col-xl-3">
+            <h2 class="h2">Найдите свой дом на Кипре</h2>
+        </div>
+        <div class="col-xl-9">
+            <form class="form-search">
+                <div class="form-search-row">
+                    <div class="form-search-col">
+                        <select name="search_city">
+                            <option value="">Город</option>
+                            <option value="Pafos">Пафос</option>
+                            <option value="Limassol">Лимаcсол</option>
+                            <option value="Larnaca">Ларнака</option>
+                            <option value="Nicosia">Никосия</option>
+                            <option value="Ayia Napa">Айя-Напа</option>
+                            <option value="Famagusta">Фамагуста</option>
+                        </select>
+                    </div>
+                    <div class="form-search-col">
+                        <select name="search_type" >
+                            <option value="">Тип</option>
+                            <option value="1">Дом</option>
+                            <option value="2">Квартира</option>
+                            <option value="3">Офис</option>
+                         </select>
+                    </div>
+                    <div class="form-search-col">
+                        <select name="search_marketplace" >
+                            <option value="">Стиль жизни</option>
+                            <option value="Penthouses">Пентхаусы на Кипре</option>
+                            <option value="Country-Living">Загородная недвижимость</option>
+                            <option value="High-Rises">Высотные здания</option>
+                            <option value="Golf-properties">Гольф недвижимость на Кипре</option>
+                            <option value="Gated-community">Клубные комплексы</option>
+                            <option value="Contemporary-Style">Современный стиль</option>
+                            <option value="Villas">Виллы на Кипре</option>
+                            <option value="Apartments">Апартаменты на Кипре</option>
+                            <option value="City-Center">Недвижимость в центре города</option>
+                            <option value="Panoramic-views">Панорамные виды</option>
+                            <option value="Sea-front-properties">Первая линия</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-search-row">
+                    <div class="form-search-col form-search-col--lg mb-4">
+                        <div class="d-flex mb-4">
+                            <label for="price-amount" class="slide-range-label">Цена</label>
+                            <input type="text" id="price-amount" readonly class="form-search__input">
+                        </div>
+                        <div id="price-range" class="slide-range"></div>
+                    </div>
+                    <div class="form-search-col form-search-col--lg mb-4">
+                        <div class="d-flex mb-4">
+                            <label for="room-size" class="slide-range-label">Площадь</label>
+                            <input type="text" id="room-size" readonly class="form-search__input">
+                        </div>
+                        <div id="room-size-range" class="slide-range"></div>
+                    </div>
+                </div>
+                <button type="submit" class="form-search__btn">Поиск</button>
+            </form>
+        </div>
+    </div>
+</div>
+</section>
+
+<section>
+    <div class="container container-info-slider">
+    <div class="d-flex">
+        <h2 class="h2">Выберите стиль жизни</h2>
+    </div>
+
+    <!-- Swiper -->
+    <div class="info-slider-wrapper">
+        <div class="swiper-container js-single-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="info-slide">
+                        <div class="info-slide__img-wrap">
+                            <div class="info-slide__img" style="background-image: url('images/content/info-slide-1.jpg')"></div>
+                        </div>
+                        <div class="info-slide__body">
+                            <div class="info-slide__title">Первая линия</div>
+                            <p class="info-slide__txt">
+                                Виллы на берегу моря всегда имеют высокую рыночную стоимость по сравнению с другой недвижимостью.
+                                Спрос превышает предложение, потому что береговая линия ограничена, а это означает, что стоимость
+                            </p>
+                            <a href="#" class="info-slide__link">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section>
+    <div class="container container-news-slider">
+    <div class="txt-tag d-flex">
+        <span class="icon icon-star mr-2"></span>
+        ВЫБОР КОМАНДЫ CYPRUS SOTHEBY'S INTERNATIONAL REALTY
+    </div>
+    <div class="d-flex">
+        <h2 class="h2">Рекомендуемая недвижимость Кипра</h2>
+    </div>
+
+    <!-- Swiper -->
+    <div class="swiper-container js-multi-slider">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <a href="#" class="news-slide">
+                <div class="news-slide__img-wrap sm">
+                    <div class="news-slide__img" style="background-image: url('images/content/flat-1.jpg')"></div>
+                </div>
+                <div class="news-slide__title">Вилла с 3 спальнями в Пафосе</div>
+                <p class="news-slide__txt news-slide__txt--sm">
+                    Cyprus, Nicosia, Aglantzia 38 m2  ·  1 Спальни  ·  1 Ванные комнаты
+                </p>
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="#" class="news-slide">
+                <div class="news-slide__img-wrap sm">
+                    <div class="news-slide__img" style="background-image: url('images/content/flat-2.jpg')"></div>
+                </div>
+                <div class="news-slide__title">Апартаменты с 2 спальнями в Ларнаке</div>
+                 <p class="news-slide__txt news-slide__txt--sm">
+                    Cyprus, Nicosia, Aglantzia 38 m2  ·  1 Спальни  ·  1 Ванные комнаты
+                </p>
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="#" class="news-slide">
+                <div class="news-slide__img-wrap sm">
+                    <div class="news-slide__img" style="background-image: url('images/content/flat-3.jpg')"></div>
+                </div>
+                <div class="news-slide__title">Пентхаус с 4 спальнями</div>
+                 <p class="news-slide__txt news-slide__txt--sm">
+                    Cyprus, Nicosia, Aglantzia 38 m2  ·  1 Спальни  ·  1 Ванные комнаты
+                </p>
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="#" class="news-slide">
+                <div class="news-slide__img-wrap sm">
+                    <div class="news-slide__img" style="background-image: url('images/content/flat-2.jpg')"></div>
+                </div>
+                <div class="news-slide__title">Апартаменты с 2 спальнями в Ларнаке</div>
+                 <p class="news-slide__txt news-slide__txt--sm">
+                    Cyprus, Nicosia, Aglantzia 38 m2  ·  1 Спальни  ·  1 Ванные комнаты
+                </p>
+            </a>
+        </div>
+    </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</div>
+</section>
+
+<section>
+    <div class="container container-elite-slider">
+    <div class="txt-tag">ЛУЧШИЕ ОБЪЕКТЫ ОСТРОВА</div>
+    <div class="d-flex justify-content-between align-items-end mb-5">
+        <h2 class="h2 mb-0">Элитная недвижимость на Кипре</h2>
+        <a href="#" class="d-none d-lg-block txt-link mb-lg-1">Вся недвижимость</a>
+    </div>
+
+    <!-- Swiper -->
+    <div class="swiper-container js-single-slider">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <a href="#" class="elite-slide">
+                <div class="elite-slide__img-wrap">
+                    <div class="elite-slide__img" style="background-image: url('images/content/elite-slide-1.jpg')"></div>
+                </div>
+                <div class="elite-slide__body">
+                    <h4 class="elite-slide__title">Вилла с 4 спальнями в Лимассоле</h4>
+                    <p class="elite-slide__txt mb-4">Cyprus, Limassol, Limassol Marina</p>
+                    <p class="elite-slide__txt">
+                        Виллы на берегу моря всегда имеют высокую рыночную стоимость по сравнению с другой недвижимостью.
+                        Спрос превышает предложение, потому что береговая линия ограничена, а это означает, что стоимость
+                    </p>
+                    <p class="elite-slide__price">€8.400.000</p>
+                </div>
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="#" class="elite-slide">
+                <div class="elite-slide__img-wrap">
+                    <div class="elite-slide__img" style="background-image: url('images/content/elite-slide-1.jpg')"></div>
+                </div>
+                <div class="elite-slide__body">
+                    <h4 class="elite-slide__title">Вилла с 4 спальнями в Лимассоле</h4>
+                    <p class="elite-slide__txt mb-4">Cyprus, Limassol, Limassol Marina</p>
+                    <p class="elite-slide__txt">
+                        Виллы на берегу моря всегда имеют высокую рыночную стоимость по сравнению с другой недвижимостью.
+                        Спрос превышает предложение, потому что береговая линия ограничена, а это означает, что стоимость
+                    </p>
+                    <p class="elite-slide__price">€8.400.000</p>
+                </div>
+            </a>
+        </div>
+    </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</div>
+</section>
+
+<section>
+    <div class="container container-news-slider">
+    <div class="d-flex justify-content-between align-items-end mb-5">
+        <h2 class="h2 mb-0">Свежие новости</h2>
+        <a href="#" class="d-none d-lg-block txt-link mb-lg-1">Все новости</a>
+    </div>
+
+    <!-- Swiper -->
+    <div class="swiper-container js-multi-slider">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <a href="#" class="news-slide">
+                <div class="news-slide__img-wrap">
+                    <div class="news-slide__img" style="background-image: url('images/content/news-slide-1.jpg')"></div>
+                </div>
+                <div class="news-slide__date">10.03.2021</div>
+                <p class="news-slide__txt">Горный Кипр: отели, курорты и горные лыжи на Кипре</p>
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="#" class="news-slide">
+                <div class="news-slide__img-wrap">
+                    <div class="news-slide__img" style="background-image: url('images/content/news-slide-2.jpg')"></div>
+                </div>
+                <div class="news-slide__date">5.03.2021</div>
+                <p class="news-slide__txt">
+                    Зоопарк Пафоса - уникальный дом Средиземноморья для животных и птиц
+                </p>
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="#" class="news-slide">
+                <div class="news-slide__img-wrap">
+                    <div class="news-slide__img" style="background-image: url('images/content/news-slide-3.jpg')"></div>
+                </div>
+                <div class="news-slide__date">10.01.2021</div>
+                <p class="news-slide__txt">
+                    Какие сувениры привести с отпуска на Кипре?
+                </p>
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="#" class="news-slide">
+                <div class="news-slide__img-wrap">
+                    <div class="news-slide__img" style="background-image: url('images/content/news-slide-2.jpg')"></div>
+                </div>
+                <div class="news-slide__date">5.03.2021</div>
+                <p class="news-slide__txt">
+                    Зоопарк Пафоса - уникальный дом Средиземноморья для животных и птиц
+                </p>
+            </a>
+        </div>
+    </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</div>
+</section>
+
+<section>
+    <div class="container container-spec">
+    <h2 class="h2">Специалисты по работе с недвижимостью Кипра</h2>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="row align-items-center spec-item">
+                <div class="col-md-6 col-lg-12 mb-4 mb-md-0 mb-lg-4">
+                    <img alt="" src="images/content/woman.jpg" class="mw-100p" />
+                </div>
+                <div class="col-md-6 col-lg-12">
+                    <h3 class="spec-title">Анастасия Янни</h3>
+                    <p class="mb-4 mb-lg-5">
+                        Руководитель офиса Sotheby’s International Realty на Кипре.
+                        Опыт работы на рынке недвижимости Кипра более 20 лет, магистра по недвижимости.
+                    </p>
+                    <a href="#" class="spec-link">Написать в WhatsApp</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="row align-items-center spec-item">
+                <div class="col-md-6 col-lg-12 mb-4 mb-md-0 mb-lg-4">
+                    <img alt="" src="images/content/man.jpg" class="mw-100p" />
+                </div>
+                <div class="col-md-6 col-lg-12">
+                    <h3 class="spec-title">Александр Cемин</h3>
+                    <p class="mb-4 mb-lg-5">
+                        Зарегистрированный и лицензированный агент недвижимости на Кипре,
+                        а также специалист по оценке и развитию недвижимости.
+                    </p>
+                    <a href="#" class="spec-link">Написать в WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section>
+    <div class="feedback bg-blue">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 pr-xl-5 mb-sm-5">
+                <h2 class="h2">
+                    Бесплатная консультация
+                </h2>
+                <p class="feedback-txt mb-4">
+                    Отправьте запрос, и&nbsp;мы&nbsp;свяжемся с вами в течение 24 часов
+                </p>
+            </div>
+
+            <div class="col-xl-8">
+                <form class="feedback-form">
+                    <div class="feedback-form__control">
+                        <input placeholder="Имя*" required class="feedback-form__input" />
+                    </div>
+                    <div class="feedback-form__control feedback-form__control--row mb-5">
+                        <input placeholder="Электроная почта*" type="email" required class="feedback-form__input" />
+                        <input placeholder="Телефон" class="feedback-form__input" />
+                    </div>
+
+                    <button type="submit" class="feedback-form__btn mb-4 mt-5">Отправить</button>
+
+                    <p class="feedback-txt feedback-txt--sm">
+                        Нажимая отправить, я соглашаюсь на условия пользовательского соглашения
+                    </p>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+</section>
+
+<section>
+    <div class="subscribe bg-gray">
+    <div class="container">
+        <h2 class="h2">
+            Подпишитесь на интересные предложения на рынке недвижимости Кипра
+        </h2>
+        <form class="subscribe-form">
+            <div class="subscribe-form__control">
+                <input placeholder="Электроная почта" type="email" required class="subscribe-form__input" />
+                <button type="submit" class="subscribe-form__btn">Подписаться</button>
+            </div>
+            <p class="subscribe-form__txt">Подписываясь, я соглашаюсь на условия пользовательского соглашения</p>
+        </form>
+    </div>
+</div>
+</section>
+
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 mb-5">
+                <a href="#" class="d-none d-xl-block"><img src="images/footer-logo-xl.svg" /> </a>
+                <a href="#" class="d-xl-none"><img src="images/footer-logo-sm.svg" class="mw-100p" /> </a>
+            </div>
+
+            <div class="col-xl-8">
+                <div class="footer-nav">
+                    <h2 class="footer-nav__title">Недвижимость на Кипре</h2>
+                    <div class="footer-nav-list">
+                        <a href="#" class="footer-nav__link">Пафос</a>
+                        <a href="#" class="footer-nav__link">Лимассол</a>
+                        <a href="#" class="footer-nav__link">Айя-Напа</a>
+                        <a href="#" class="footer-nav__link">Ларнака</a>
+                        <a href="#" class="footer-nav__link">Никосия</a>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <h4 class="h4">Соцсети</h4>
+                    <div class="d-flex flex-wrap">
+                        <a href="#" class="footer-social__link">Facebook</a>
+                        <a href="#" class="footer-social__link">Instagram</a>
+                        <a href="#" class="footer-social__link">Vkontakte</a>
+                        <a href="#" class="footer-social__link">LinkedIn</a>
+                        <a href="#" class="footer-social__link">YouTube</a>
+                    </div>
+                </div>
+                <div class="footer-contacts mb-5">
+                    <h4 class="h4">Контакты</h4>
+                    <p class="footer-contacts__txt mb-3">
+                        46 Ioanni Agroti, Central Square, 8047, Pafos, Cyprus<br />
+                        Пн - Пт, 09:00-19:00
+                    </p>
+                    <p class="footer-contacts__txt">+357 26 080180 <a href="mailto:info@cyprus-sothebysrealty.com">info@cyprus-sothebysrealty.com</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="row footer-bottom">
+            <div class="col-12">
+                <h4 class="mb-3">Политика конфиденциальности</h4>
+                <p class="mb-3">
+                   <a href="#">Sotheby’s International Realty Affiliates LLC</a> fully supports the principles of the Fair Housing Act and the Equal Opportunity Act. Each Office is Independently Owned and Operated. Sotheby’s International Realty®, the Sotheby’s International Realty logo, “For the Ongoing Collection of Life” and RESIDE are registered (or unregistered) service marks owned or licensed to Sotheby’s International Realty Affiliates LLC.
+                    The information set forth on this site is based upon information which we consider reliable, but because it has been supplied by third parties to our franchisees (who in turn supplied it to us), we can not represent that it is accurate or complete, and it should not be relied upon as such. The offerings are subject to errors, omissions, changes, including price, or withdrawal without notice. All dimensions are approximate and have not been verified by the selling party and can not be verified by Sotheby’s International Realty Affiliates LLC. It is recommended that you hire a professional in the business of determining dimensions, such as an appraiser, architect or civil engineer, to determine such information.
+                    Sotheby’s International Realty® is a registered trademark licensed to Sotheby’s International Realty Affiliates LLC. Each Office is independently Owned and Operated.
+                    Reg No 1013 License No 517/E
+                </p>
+                <p>
+                    Copyright ©2013-2021 Cyprus Sotheby’s International Realty®.
+                    Sotheby's Auction House. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/index.js?1618588022011"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+$select_gray_dark: #445870;
+$select_gray: #90a1b5;
+$select_gray_light: #a5a5a5;
+$select_gray_lighter: #f6f7f9;
+$select_blue: $blue;
+$select_blue_light: $blue;
+$select_primary: $select_blue;
+$select_primary_light: $select_blue_light;
+
+@import "nice-select";

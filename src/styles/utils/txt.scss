@@ -1,0 +1,88 @@
+.txt {
+
+  &-red {
+    color: $red !important;
+  }
+
+  &-black {
+    color: $black !important;
+  }
+
+  &-blue {
+    color: $blue !important;
+  }
+
+  &-gray {
+    color: #848484 !important;
+  }
+
+  &-crossline {
+    text-decoration: line-through;
+  }
+
+  &-dec-none {
+    text-decoration: none;
+  }
+
+  &-medium {
+    font-weight: 500;
+  }
+  &-semi-bold {
+    font-weight: 550 !important;
+  }
+  &-bold {
+    font-weight: 600;
+  }
+
+  &-fs-12 {
+    font-size: 12px !important;
+  }
+
+  &-fs-13 {
+    font-size: 13px;
+  }
+
+  &-fs-14 {
+    font-size: 14px !important;
+  }
+
+  &-fs-15 {
+    font-size: 15px !important;
+  }
+
+  &-fs-16 {
+    font-size: 16px !important;
+  }
+
+  &-fs-18 {
+    font-size: 18px;
+  }
+
+  &-fs-20 {
+    font-size: 20px;
+  }
+
+  &-fs-22 {
+    font-size: 22px !important;
+  }
+
+  &-fs-26 {
+    font-size: 26px !important;
+  }
+
+  &-fs-30 {
+    font-size: 30px;
+  }
+
+  &-fl-left {
+    float: left;
+  }
+
+  &-center {
+    text-align: center;
+  }
+
+  &-right {
+    text-align: right;
+  }
+}

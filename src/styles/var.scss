@@ -1,0 +1,82 @@
+// Variables
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  sm: 570px,
+  md: 750px,
+  lg: 990px,
+  xl: 1170px,
+) !default;
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-gutter-width: 60px;
+
+//
+// Color system
+//
+
+// stylelint-disable
+$white: #fff !default;
+$black: #000 !default;
+
+$blue: #002349;
+$blue-dark: #05162f;
+
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+
+$red: #e81341 !default;
+$orange: #ff7a32 !default;
+
+$yellow: #ffdd2d !default;
+
+$green: #27cb99 !default;
+$teal: #20c997 !default;
+$cyan: #17a2b8 !default;
+
+$gray: #858585;
+// stylelint-enable
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg: $white !default;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color: $blue !default;
+$link-decoration: none !default;
+$link-hover-color: darken($link-color, 15%) !default;
+$link-hover-decoration: underline !default;
+
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+
+// stylelint-disable value-keyword-case
+$font-family-sans-serif: Times, "Times New Roman", serif;
+$font-family-OpenSans: "Open Sans", sans-serif;
+$font-family-base: $font-family-sans-serif !default;
+// stylelint-enable value-keyword-case
+
+// $font-size-base: 15px !default; // Assumes the browser default, typically `16px`
+$line-height-base: 1.2;
+// $body-color: $black;
+// $font-weight-base: 400;
+
+//
+// svg icons
+$i-arrow-prev: url("data:image/svg+xml,%3Csvg width='16' height='63' viewBox='0 0 16 63' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15.5304 0.999985L1 31.479L15.5304 61.958' stroke='%23002349' stroke-width='2'/%3E%3C/svg%3E%0A");
+$i-arrow-next: url("data:image/svg+xml,%3Csvg width='16' height='63' viewBox='0 0 16 63' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.530382 61.958L15.0608 31.479L0.530385 0.999985' stroke='%23002349' stroke-width='2'/%3E%3C/svg%3E%0A");
+
+$i-arrow-down: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23' height='13' viewBox='0 0 23.17 12.94'%3E%3Cpath fill='%23000' d='M10.86,12.65,0,1.41C.61.77.68.74,1.41,0L11.59,10.56,21.75.33s.47.44,1.41,1.41L12.33,12.65a1.09,1.09,0,0,1-1.47,0Z'/%3E%3C/svg%3E%0A");

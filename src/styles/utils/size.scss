@@ -1,0 +1,44 @@
+.w {
+  &-100p {
+    width: 100% !important;
+  }
+
+  &-160 {
+    width: 160px !important;
+  }
+
+  &-175 {
+    width: 175px !important;
+  }
+
+  &-180 {
+    width: 180px !important;
+  }
+
+  &-240 {
+    width: 240px !important;
+  }
+}
+
+.mw {
+
+  &-100p {
+    max-width: 100%;
+  }
+
+  &-230 {
+    max-width: 230px;
+  }
+
+  &-280 {
+    max-width: 280px;
+  }
+
+  &-550 {
+    max-width: 550px;
+  }
+
+  &-850 {
+    max-width: 850px;
+  }
+}

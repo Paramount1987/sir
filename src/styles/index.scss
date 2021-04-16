@@ -1,0 +1,27 @@
+@import "var";
+@import "font";
+
+@import "node_modules/bootstrap/scss/bootstrap-grid.scss";
+@import "reboot";
+
+// Utils
+@import "utils/index";
+// //-----------------------------------------
+
+// // Libs
+@import "libs/swiper";
+@import "libs/nice-select/style";
+@import "libs/jquery-ui";
+// //-----------------------------------------
+
+// // Components
+@import "components/index";
+// //-----------------------------------------
+
+// // Blocks
+@import "blocks/index";
+// //-----------------------------------------
+
+// // Pages
+@import "pages/index";
+//-----------------------------------------

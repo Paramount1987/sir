@@ -1,0 +1,65 @@
+<div class="container container-form-search">
+    <div class="row">
+        <div class="col-xl-3">
+            <h2 class="h2">Найдите свой дом на Кипре</h2>
+        </div>
+        <div class="col-xl-9">
+            <form class="form-search">
+                <div class="form-search-row">
+                    <div class="form-search-col">
+                        <select name="search_city">
+                            <option value="">Город</option>
+                            <option value="Pafos">Пафос</option>
+                            <option value="Limassol">Лимаcсол</option>
+                            <option value="Larnaca">Ларнака</option>
+                            <option value="Nicosia">Никосия</option>
+                            <option value="Ayia Napa">Айя-Напа</option>
+                            <option value="Famagusta">Фамагуста</option>
+                        </select>
+                    </div>
+                    <div class="form-search-col">
+                        <select name="search_type" >
+                            <option value="">Тип</option>
+                            <option value="1">Дом</option>
+                            <option value="2">Квартира</option>
+                            <option value="3">Офис</option>
+                         </select>
+                    </div>
+                    <div class="form-search-col">
+                        <select name="search_marketplace" >
+                            <option value="">Стиль жизни</option>
+                            <option value="Penthouses">Пентхаусы на Кипре</option>
+                            <option value="Country-Living">Загородная недвижимость</option>
+                            <option value="High-Rises">Высотные здания</option>
+                            <option value="Golf-properties">Гольф недвижимость на Кипре</option>
+                            <option value="Gated-community">Клубные комплексы</option>
+                            <option value="Contemporary-Style">Современный стиль</option>
+                            <option value="Villas">Виллы на Кипре</option>
+                            <option value="Apartments">Апартаменты на Кипре</option>
+                            <option value="City-Center">Недвижимость в центре города</option>
+                            <option value="Panoramic-views">Панорамные виды</option>
+                            <option value="Sea-front-properties">Первая линия</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-search-row">
+                    <div class="form-search-col form-search-col--lg mb-4">
+                        <div class="d-flex mb-4">
+                            <label for="price-amount" class="slide-range-label">Цена</label>
+                            <input type="text" id="price-amount" readonly class="form-search__input">
+                        </div>
+                        <div id="price-range" class="slide-range"></div>
+                    </div>
+                    <div class="form-search-col form-search-col--lg mb-4">
+                        <div class="d-flex mb-4">
+                            <label for="room-size" class="slide-range-label">Площадь</label>
+                            <input type="text" id="room-size" readonly class="form-search__input">
+                        </div>
+                        <div id="room-size-range" class="slide-range"></div>
+                    </div>
+                </div>
+                <button type="submit" class="form-search__btn">Поиск</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+.container-spec {
+  margin-bottom: 70px;
+}
+
+.spec {
+  &-item {
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-family: $font-family-OpenSans;
+    font-weight: 300;
+    color: $blue;
+    line-height: 1.4;
+  }
+
+  &-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+  &-link {
+    display: flex;
+    align-items: center;
+    width: 260px;
+    height: 60px;
+    border: 1px solid #e5e5e5;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+
+    &:hover {
+      background-color: $blue;
+      color: $white;
+    }
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .spec {
+    &-title {
+      font-size: 28px;
+    }
+  }
+}

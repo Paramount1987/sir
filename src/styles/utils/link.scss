@@ -1,0 +1,33 @@
+.link {
+
+  &-bb {
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+
+    &:hover {
+      border-bottom-color: transparent;
+    }
+  }
+
+  &-custom {
+    color: $blue;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &__ico-heart {
+      svg {
+        width: 16px !important;
+        height: 12px !important;
+      }
+    }
+    &__ico-comment {
+      position: relative;
+      top: 4px;
+      display: inline-block;
+      margin-right: 5px;
+    }
+  }
+}
