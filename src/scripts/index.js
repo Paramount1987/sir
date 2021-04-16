@@ -16,6 +16,7 @@ require("./libs/index");
 require("./components/sliders/intro-slider");
 require("./components/sliders/multi-slider");
 require("./components/sliders/single-slider");
+require("./components/transition");
 
 require("./components/form");
 
