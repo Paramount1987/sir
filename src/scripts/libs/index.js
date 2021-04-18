@@ -4,3 +4,4 @@ window.Swiper = Swiper;
 
 require("./jquery.nice-select");
 require("./jquery-ui");
+require("./jquery-ui-touch");

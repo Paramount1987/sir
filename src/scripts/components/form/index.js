@@ -48,4 +48,15 @@ $(document).ready(() => {
       "#room-size-range"
     ).slider("values", 1)}`
   );
+
+  //  Напишите нам
+  $(".js-link-feedback").click(function () {
+    $(".js-nav-mobile").removeClass("open");
+    $("html, body").animate(
+      {
+        scrollTop: $(".js-feedback").offset().top,
+      },
+      1500
+    );
+  });
 });

@@ -728,6 +728,7 @@ button.ui-button::-moz-focus-inner {
   cursor: pointer;
   -ms-touch-action: none;
   touch-action: none;
+  outline: none;
 }
 .ui-slider .ui-slider-range {
   position: absolute;

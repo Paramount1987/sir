@@ -1,10 +1,14 @@
 .h2,
 .h4 {
   margin-bottom: 25px;
-  font-size: 28px;
   color: $blue;
   line-height: 1.1;
   font-weight: normal;
+}
+
+.h2 {
+  font-size: 42px;
+  margin-bottom: 60px;
 }
 
 .h4 {
@@ -31,11 +35,14 @@
   font-weight: 300;
   font-family: $font-family-OpenSans;
   font-size: 22px;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 @include media-breakpoint-up(sm) {
   .h2 {
-    margin-bottom: 40px;
     font-size: 48px;
   }
 
