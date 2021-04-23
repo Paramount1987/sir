@@ -23,3 +23,4 @@ require("./components/form");
 import Nav from "./components/nav";
 
 Nav.init();
+AOS.init();
